@@ -1,1 +1,1 @@
-web: gunicorn don-carlos.wsgi
+web: gunicorn django_blog.wsgi
