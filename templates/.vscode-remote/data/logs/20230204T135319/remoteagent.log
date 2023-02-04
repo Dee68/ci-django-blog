@@ -1,0 +1,13 @@
+2023-02-04 13:53:19.909 [info] 
+
+
+
+
+2023-02-04 13:53:19.951 [info] Extension host agent started.
+2023-02-04 13:53:20.689 [info] Getting Manifest... gitpod.gitpod-theme
+2023-02-04 13:53:20.929 [info] Installing extension: gitpod.gitpod-theme
+2023-02-04 13:53:21.259 [info] Extension installed successfully: gitpod.gitpod-theme
+2023-02-04 13:53:22.356 [info] [192.168.185.12][a276a4ec][ManagementConnection] New connection established.
+2023-02-04 13:53:22.496 [info] [192.168.113.134][f06e2a38][ExtensionHostConnection] New connection established.
+2023-02-04 13:53:22.505 [info] [192.168.113.134][f06e2a38][ExtensionHostConnection] <1020> Launched Extension Host Process.
+2023-02-04 13:53:22.710 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.

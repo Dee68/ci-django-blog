@@ -1,0 +1,52 @@
+2023-02-04 13:53:24.281 [info] Extension host with pid 1020 started
+2023-02-04 13:53:24.308 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-423d24f5/vscode.lock': Lock acquired.
+2023-02-04 13:53:24.420 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2023-02-04 13:53:24.421 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: '*'
+2023-02-04 13:53:24.422 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: false, activationEvent: '*'
+2023-02-04 13:53:24.422 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: false, activationEvent: '*'
+2023-02-04 13:53:24.422 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-04 13:53:24.423 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-02-04 13:53:24.425 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-02-04 13:53:24.426 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2023-02-04 13:53:26.751 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-02-04 13:53:26.823 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-02-04 13:53:26.823 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-02-04 13:53:27.508 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-02-04 13:53:28.004 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2023-02-04 13:53:28.295 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 13:53:28.296 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 13:53:28.296 [info] ExtensionService#_doActivateExtension dalirnet.doctypes, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 13:53:28.296 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-02-04 13:53:28.297 [info] Eager extensions activated
+2023-02-04 13:53:28.986 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 13:53:29.615 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-02-04 13:53:29.618 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-02-04 13:53:30.383 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-04 13:53:30.383 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-04 13:53:30.383 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-04 13:53:35.828 [error] [ms-python.python] provider FAILED
+2023-02-04 13:53:35.828 [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003355
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003649
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2004011)
+	at processImmediate (node:internal/timers:466:21)
+2023-02-04 13:53:37.409 [error] [ms-python.python] provider FAILED
+2023-02-04 13:53:37.409 [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003355
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003649
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2004011)
+	at processImmediate (node:internal/timers:466:21)
+2023-02-04 13:53:37.926 [error] [ms-python.python] provider FAILED
+2023-02-04 13:53:37.926 [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003355
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003649
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2004011)
+	at processImmediate (node:internal/timers:466:21)
+2023-02-04 14:33:37.720 [error] [ms-python.python] provider FAILED
+2023-02-04 14:33:37.721 [error] Error: AttributeError: 'NoneType' object has no attribute 'is_module'
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003355
+	at /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2003649
+	at Immediate.<anonymous> (/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/out/client/extension.js:2:2004011)
+	at processImmediate (node:internal/timers:466:21)
+2023-02-04 14:42:20.705 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-02-04 14:44:32.880 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

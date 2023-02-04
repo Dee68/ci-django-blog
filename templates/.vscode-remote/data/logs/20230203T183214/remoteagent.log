@@ -1,0 +1,20 @@
+2023-02-03 18:32:14.205 [info] 
+
+
+
+
+2023-02-03 18:32:14.237 [info] Extension host agent started.
+2023-02-03 18:32:14.941 [info] Getting Manifest... gitpod.gitpod-theme
+2023-02-03 18:32:15.184 [info] Installing extension: gitpod.gitpod-theme
+2023-02-03 18:32:15.549 [info] Extension installed successfully: gitpod.gitpod-theme
+2023-02-03 18:32:17.216 [info] [192.168.185.12][dd8ea402][ManagementConnection] New connection established.
+2023-02-03 18:32:17.502 [info] [192.168.109.134][a732fd04][ExtensionHostConnection] New connection established.
+2023-02-03 18:32:17.514 [info] [192.168.109.134][a732fd04][ExtensionHostConnection] <1025> Launched Extension Host Process.
+2023-02-03 18:32:17.522 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2023-02-03 20:54:22.527 [info] [192.168.185.12][16f1b85a][ManagementConnection] New connection established.
+2023-02-03 20:54:22.614 [info] [192.168.109.134][eb5ae313][ExtensionHostConnection] New connection established.
+2023-02-03 20:54:22.622 [info] [192.168.109.134][eb5ae313][ExtensionHostConnection] <3334> Launched Extension Host Process.
+2023-02-03 20:54:22.976 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2023-02-03 20:59:22.736 [info] [192.168.109.134][a732fd04][ExtensionHostConnection] <1025> Extension Host Process exited with code: 0, signal: null.
+2023-02-03 22:23:57.237 [info] [192.168.185.12][16f1b85a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-03 22:23:57.328 [info] [192.168.109.134][eb5ae313][ExtensionHostConnection] <3334> Extension Host Process exited with code: 0, signal: null.

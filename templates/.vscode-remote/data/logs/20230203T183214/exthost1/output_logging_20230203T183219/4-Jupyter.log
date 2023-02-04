@@ -1,0 +1,17 @@
+Gitpod Code (1.75.0, dee68-cidjangoblog-p82ieo5qyol.ws-eu85.gitpod.io, Gitpod)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2023.2.0.
+Workspace folder /workspace/ci-django-blog
+info 18:32:20.457: ZMQ install verified.
+info 18:32:20.869: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 18:32:22.173: Got empty env vars with python /home/gitpod/.pyenv/versions/3.8.11/bin/python in 679ms
+info 18:32:22.173: Got env vars ourselves faster /home/gitpod/.pyenv/versions/3.8.11/bin/python with env var count 65 in 679ms
+info 18:32:22.201: Process Execution: > ~/.pyenv/versions/3.8.11/bin/python -m pip list
+> ~/.pyenv/versions/3.8.11/bin/python -m pip list
+info 20:59:22.683: Shutting down notebooks for dc002267-a221-48ae-a004-131354552565
+info 20:59:22.683: Disposing HostJupyterExecution 7afa3da9-e66d-4e5a-80cb-a061e145d829
+info 20:59:22.683: Disposing super HostJupyterExecution 7afa3da9-e66d-4e5a-80cb-a061e145d829
+info 20:59:22.683: Disposing HostJupyterExecution 7afa3da9-e66d-4e5a-80cb-a061e145d829
+info 20:59:22.683: Finished disposing HostJupyterExecution  7afa3da9-e66d-4e5a-80cb-a061e145d829
+info 20:59:22.688: Cleaning up server cache 7afa3da9-e66d-4e5a-80cb-a061e145d829
+info 20:59:22.691: Finished disposing HostJupyterExecution  7afa3da9-e66d-4e5a-80cb-a061e145d829

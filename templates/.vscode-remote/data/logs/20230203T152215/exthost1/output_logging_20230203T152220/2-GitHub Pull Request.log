@@ -1,0 +1,23 @@
+[Info] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+[Info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-remote://dee68-cidjangoblog-p82ieo5qyol.ws-eu85.gitpod.io/workspace/.vscode-remote/data/User/globalStorage/github.vscode-pull-request-github/temp'
+[Info] Looking for git repository
+[Info] Found 0 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Registering git provider
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Found GitHub remote for folder /workspace/ci-django-blog
+[Info] Repo state for file:///workspace/ci-django-blog changed.
+[Info] Repo file:///workspace/ci-django-blog has already been setup.
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Found GitHub remote for folder /workspace/ci-django-blog
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Found GitHub remote for folder /workspace/ci-django-blog
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main

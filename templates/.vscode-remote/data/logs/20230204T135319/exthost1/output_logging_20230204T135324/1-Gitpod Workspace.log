@@ -1,0 +1,12 @@
+[Info  - 13:53:26.986] VSCODE_MACHINE_ID: 400ed5ea-b7d1-42b7-98a4-942eac38e05e
+[Info  - 13:53:26.987] VSCODE_SESSION_ID: 8735ee6e-7f4f-40b0-bec0-546c4d0265691675518801766
+[Info  - 13:53:26.987] VSCODE_VERSION: 1.75.0
+[Info  - 13:53:26.987] VSCODE_APP_NAME: Gitpod Code
+[Info  - 13:53:26.987] VSCODE_APP_HOST: Gitpod
+[Info  - 13:53:26.987] VSCODE_UI_KIND: web
+[Info  - 13:53:26.987] GITPOD_WORKSPACE_CONTEXT_URL: https://github.com/Dee68/ci-django-blog
+[Info  - 13:53:26.987] GITPOD_INSTANCE_ID: 6df5762a-4333-4c4f-a3f7-2c4e4cbc455f
+[Info  - 13:53:26.987] GITPOD_WORKSPACE_URL: https://dee68-cidjangoblog-p82ieo5qyol.ws-eu85.gitpod.io
+[Trace  - 13:53:27.22] Task status:
+	76aff5b1-aab6-4820-bf2b-8a33af04aedb => RUNNING
+	2a4a7466-9436-4bd4-b4ce-0ca41d7d3d9d => RUNNING

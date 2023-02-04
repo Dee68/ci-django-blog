@@ -1,0 +1,42 @@
+Name: isort
+Module: isort
+Python extension loading
+Waiting for interpreter from python extension.
+Python extension loaded
+CWD Server: /workspace/ci-django-blog
+sys.path used to run Server:
+   /workspace/.vscode-remote/extensions/ms-python.isort-2022.8.0-universal/bundled/libs
+   /workspace/.vscode-remote/extensions/ms-python.isort-2022.8.0-universal/bundled/tool
+   /home/gitpod/.pyenv/versions/3.8.11/lib/python38.zip
+   /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8
+   /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/lib-dynload
+   /workspace/.pip-modules/lib/python3.8/site-packages
+   /home/gitpod/.pyenv/versions/3.8.11/lib/python3.8/site-packages
+Settings used to run Server:
+[
+    {
+        "check": false,
+        "workspace": "file:///workspace/ci-django-blog",
+        "logLevel": "error",
+        "args": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "path": [],
+        "interpreter": [
+            "/home/gitpod/.pyenv/versions/3.8.11/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+/home/gitpod/.pyenv/versions/3.8.11/bin/python -m isort --version-number
+CWD Linter: /workspace/ci-django-blog
+Version info for isort running for /workspace/ci-django-blog:
+5.10.1
+
+SUPPORTED isort>=5.10.1
+FOUND isort==5.10.1
+

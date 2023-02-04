@@ -1,0 +1,163 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+ERROR:pygls.protocol:Failed to handle request 5 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///workspace/ci-django-blog/blog/admin.py') position=15:0
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover
+    jedi_script.help(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+[Error - 1:53:35 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover\n    jedi_script.help(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+ERROR:pygls.protocol:Failed to handle request 6 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///workspace/ci-django-blog/blog/admin.py') position=15:0
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover
+    jedi_script.help(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+[Error - 1:53:37 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover\n    jedi_script.help(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+ERROR:pygls.protocol:Failed to handle request 7 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///workspace/ci-django-blog/blog/admin.py') position=15:0
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover
+    jedi_script.help(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+[Error - 1:53:37 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover\n    jedi_script.help(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "20"
+WARNING:pygls.protocol:Cancel notification for unknown message id "19"
+WARNING:pygls.protocol:Cancel notification for unknown message id "21"
+WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+WARNING:pygls.protocol:Cancel notification for unknown message id "23"
+WARNING:pygls.protocol:Cancel notification for unknown message id "25"
+WARNING:pygls.protocol:Cancel notification for unknown message id "52"
+WARNING:pygls.protocol:Cancel notification for unknown message id "61"
+WARNING:pygls.protocol:Cancel notification for unknown message id "142"
+WARNING:pygls.protocol:Cancel notification for unknown message id "231"
+WARNING:pygls.protocol:Cancel notification for unknown message id "240"
+WARNING:pygls.protocol:Cancel notification for unknown message id "326"
+WARNING:pygls.protocol:Cancel notification for unknown message id "345"
+WARNING:pygls.protocol:Cancel notification for unknown message id "347"
+WARNING:pygls.protocol:Cancel notification for unknown message id "349"
+WARNING:pygls.protocol:Cancel notification for unknown message id "383"
+WARNING:pygls.protocol:Cancel notification for unknown message id "453"
+WARNING:pygls.protocol:Cancel notification for unknown message id "568"
+WARNING:pygls.protocol:Cancel notification for unknown message id "594"
+WARNING:pygls.protocol:Cancel notification for unknown message id "631"
+WARNING:pygls.protocol:Cancel notification for unknown message id "646"
+WARNING:pygls.protocol:Cancel notification for unknown message id "711"
+ERROR:pygls.protocol:Failed to handle request 720 completionItem/resolve label='bin' kind=<CompletionItemKind.Text: 1> tags=None detail=None documentation=None deprecated=None preselect=None sort_text='v01' filter_text='bin' insert_text='bin' insert_text_format=<InsertTextFormat.PlainText: 1> insert_text_mode=None text_edit=None additional_text_edits=None commit_characters=None command=None data=None
+Traceback (most recent call last):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 175, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 599, in lsp_completion_item_resolve
+    item.detail = next(get_full_signatures(completion), completion.name)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 513, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 582, in get_signatures
+    for s in self._get_signatures()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    names = convert_names([self._name], prefer_stubs=True)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 152, in convert_names
+    return _python_to_stub_names(names, fallback_to_python=prefer_stubs)
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper
+    return list(func(*args, **kwargs))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 126, in _python_to_stub_names
+    for x in _python_to_stub_names([n], fallback_to_python=fallback_to_python):
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper
+    return list(func(*args, **kwargs))
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 132, in _python_to_stub_names
+    v = name.get_defining_qualified_value()
+  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 251, in get_defining_qualified_value
+    if context.is_module() or context.is_class():
+AttributeError: 'NoneType' object has no attribute 'is_module'
+[Error - 2:33:37 PM] Request completionItem/resolve failed.
+  Message: AttributeError: 'NoneType' object has no attribute 'is_module'
+  Code: -32602 
+{'traceback': ['  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 175, in completion_item_resolve\n    return jedi_utils.lsp_completion_item_resolve(\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 599, in lsp_completion_item_resolve\n    item.detail = next(get_full_signatures(completion), completion.name)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 513, in get_full_signatures\n    signatures = name.get_signatures()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 582, in get_signatures\n    for s in self._get_signatures()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures\n    names = convert_names([self._name], prefer_stubs=True)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 152, in convert_names\n    return _python_to_stub_names(names, fallback_to_python=prefer_stubs)\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper\n    return list(func(*args, **kwargs))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 126, in _python_to_stub_names\n    for x in _python_to_stub_names([n], fallback_to_python=fallback_to_python):\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/utils.py", line 16, in wrapper\n    return list(func(*args, **kwargs))\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/gradual/conversion.py", line 132, in _python_to_stub_names\n    v = name.get_defining_qualified_value()\n', '  File "/workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/lib/jedilsp/jedi/inference/names.py", line 251, in get_defining_qualified_value\n    if context.is_module() or context.is_class():\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "810"
+WARNING:pygls.protocol:Cancel notification for unknown message id "850"
+WARNING:pygls.protocol:Cancel notification for unknown message id "896"
+WARNING:pygls.protocol:Cancel notification for unknown message id "903"
+WARNING:pygls.protocol:Cancel notification for unknown message id "902"
+WARNING:pygls.protocol:Cancel notification for unknown message id "905"
+WARNING:pygls.protocol:Cancel notification for unknown message id "904"
+WARNING:pygls.protocol:Cancel notification for unknown message id "907"
+WARNING:pygls.protocol:Cancel notification for unknown message id "906"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1313"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1338"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1355"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1460"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1470"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1497"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1501"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1520"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1521"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1564"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1597"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1706"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1801"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1823"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1824"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1825"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1924"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1925"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1949"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1948"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2019"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2024"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2044"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2092"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2095"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2167"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2182"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2192"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2215"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2226"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2248"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2346"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2372"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2471"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2501"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2632"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2634"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2639"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2641"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2642"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2666"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2676"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2692"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2733"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2755"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2781"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2808"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2860"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2934"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2971"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2979"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3014"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3058"

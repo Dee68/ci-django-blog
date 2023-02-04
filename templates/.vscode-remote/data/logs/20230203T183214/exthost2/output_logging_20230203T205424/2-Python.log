@@ -1,0 +1,257 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+Python interpreter path: ~/.pyenv/versions/3.8.11/bin/python
+Starting Jedi language server for ci-django-blog.
+> conda info --json
+> ~/.pyenv/versions/3.8.11/bin/python -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 20:55:50.237]: [Error: Command failed: /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> /bin/python3 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 20:55:50.306]: [Error: Command failed: /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> /usr/bin/python3 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./env.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+3,80,E,E501:line too long (119 > 79 characters)
+4,80,E,E501:line too long (95 > 79 characters)
+5,80,E,E501:line too long (99 > 79 characters)
+5,100,W,W292:no newline at end of file
+
+> /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 20:55:52.264]: [Error: Command failed: /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 20:55:52.331]: [Error: Command failed: /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/models.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/models.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+9,9,E,E225:missing whitespace around operator
+9,12,E,E231:missing whitespace after ','
+9,21,E,E231:missing whitespace after ','
+9,24,E,E231:missing whitespace after ','
+15,80,E,E501:line too long (91 > 79 characters)
+22,80,E,E501:line too long (82 > 79 characters)
+35,80,E,E501:line too long (88 > 79 characters)
+45,1,W,W293:blank line contains whitespace
+46,5,E,E303:too many blank lines (2)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/models.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+9,9,E,E225:missing whitespace around operator
+9,12,E,E231:missing whitespace after ','
+9,21,E,E231:missing whitespace after ','
+9,24,E,E231:missing whitespace after ','
+15,80,E,E501:line too long (91 > 79 characters)
+22,80,E,E501:line too long (82 > 79 characters)
+35,80,E,E501:line too long (88 > 79 characters)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/models.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+9,9,E,E225:missing whitespace around operator
+9,12,E,E231:missing whitespace after ','
+9,21,E,E231:missing whitespace after ','
+9,24,E,E231:missing whitespace after ','
+15,80,E,E501:line too long (91 > 79 characters)
+22,80,E,E501:line too long (82 > 79 characters)
+35,80,E,E501:line too long (88 > 79 characters)
+46,5,E,E303:too many blank lines (2)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/models.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+9,9,E,E225:missing whitespace around operator
+9,12,E,E231:missing whitespace after ','
+9,21,E,E231:missing whitespace after ','
+9,24,E,E231:missing whitespace after ','
+15,80,E,E501:line too long (91 > 79 characters)
+22,80,E,E501:line too long (82 > 79 characters)
+35,80,E,E501:line too long (88 > 79 characters)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+7,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./django_blog/settings.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+99,80,E,E501:line too long (91 > 79 characters)
+102,80,E,E501:line too long (81 > 79 characters)
+105,80,E,E501:line too long (82 > 79 characters)
+108,80,E,E501:line too long (83 > 79 characters)
+131,80,E,E501:line too long (80 > 79 characters)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./django_blog/settings.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+100,80,E,E501:line too long (91 > 79 characters)
+103,80,E,E501:line too long (81 > 79 characters)
+106,80,E,E501:line too long (82 > 79 characters)
+109,80,E,E501:line too long (83 > 79 characters)
+132,80,E,E501:line too long (80 > 79 characters)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./django_blog/urls.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./django_blog/urls.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+6,1,E,E302:expected 2 blank lines, found 1
+8,1,W,W293:blank line contains whitespace
+9,1,E,E305:expected 2 blank lines after class or function definition, found 1
+10,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+11,1,E,E305:expected 2 blank lines after class or function definition, found 1
+12,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+11,1,E,E305:expected 2 blank lines after class or function definition, found 1
+14,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+7,1,E,E302:expected 2 blank lines, found 1
+13,1,E,E303:too many blank lines (3)
+13,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+14,1,E,E303:too many blank lines (3)
+14,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+13,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+10,34,E,E231:missing whitespace after ':'
+14,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+14,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+11,28,E,E231:missing whitespace after ','
+11,35,E,E231:missing whitespace after ','
+12,31,E,E231:missing whitespace after ','
+16,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+16,29,W,W292:no newline at end of file
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./blog/admin.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+13,28,E,E231:missing whitespace after ','
+17,29,W,W292:no newline at end of file
+

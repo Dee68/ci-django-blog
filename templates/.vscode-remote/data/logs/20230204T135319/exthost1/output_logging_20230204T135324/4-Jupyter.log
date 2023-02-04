@@ -1,0 +1,10 @@
+Gitpod Code (1.75.0, dee68-cidjangoblog-p82ieo5qyol.ws-eu85.gitpod.io, Gitpod)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2023.2.0.
+Workspace folder /workspace/ci-django-blog
+info 13:53:26.078: ZMQ install verified.
+info 13:53:26.794: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 13:53:29.392: Got empty env vars with python /home/gitpod/.pyenv/versions/3.8.11/bin/python in 1708ms
+info 13:53:29.392: Got env vars ourselves faster /home/gitpod/.pyenv/versions/3.8.11/bin/python with env var count 65 in 1709ms
+info 13:53:29.409: Process Execution: > ~/.pyenv/versions/3.8.11/bin/python -m pip list
+> ~/.pyenv/versions/3.8.11/bin/python -m pip list

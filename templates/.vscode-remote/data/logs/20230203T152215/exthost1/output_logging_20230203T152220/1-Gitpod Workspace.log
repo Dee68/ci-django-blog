@@ -1,0 +1,93 @@
+[Info  - 15:22:21.428] VSCODE_MACHINE_ID: 400ed5ea-b7d1-42b7-98a4-942eac38e05e
+[Info  - 15:22:21.428] VSCODE_SESSION_ID: 08aa10c4-26fc-423d-97f4-9b26b75b91f01675437736837
+[Info  - 15:22:21.428] VSCODE_VERSION: 1.75.0
+[Info  - 15:22:21.428] VSCODE_APP_NAME: Gitpod Code
+[Info  - 15:22:21.428] VSCODE_APP_HOST: Gitpod
+[Info  - 15:22:21.428] VSCODE_UI_KIND: web
+[Info  - 15:22:21.428] GITPOD_WORKSPACE_CONTEXT_URL: https://github.com/Dee68/ci-django-blog
+[Info  - 15:22:21.428] GITPOD_INSTANCE_ID: dacc0ab5-8184-4507-a00f-d0c873fa9c5d
+[Info  - 15:22:21.428] GITPOD_WORKSPACE_URL: https://dee68-cidjangoblog-p82ieo5qyol.ws-eu85.gitpod.io
+[Trace  - 15:22:21.454] Task status:
+	5ec827f2-c372-4134-b685-3dc282b58fc5 => RUNNING
+	dd077eb5-be33-4233-ad1a-f0bed128db94 => RUNNING
+[Info  - 15:22:21.930] gitpod release notes lastReadId: 2022-11-30, latestReleaseId: 2023-01-31
+[Error  - 17:09:26.234] 5ec827f2-c372-4134-b685-3dc282b58fc5 terminal: listening failed:
+Error: 13 INTERNAL: waitid: no child processes
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:261120)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:288626)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:281657)
+	at /ide/extensions/gitpod-web/out/extension.js:2:365639
+	at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+	at n.makeServerStreamRequest (/ide/extensions/gitpod-web/out/extension.js:2:288393)
+	at n.listen (/ide/extensions/gitpod-web/out/extension.js:2:351042)
+	at /ide/extensions/gitpod-web/out/extension.js:2:896760
+	at new Promise (<anonymous>)
+	at Object.open (/ide/extensions/gitpod-web/out/extension.js:2:896659)
+	at C.startSendingEvents (/ide/out/vs/workbench/api/node/extensionHostProcess.js:98:128835)
+	at R.$startExtensionTerminal (/ide/out/vs/workbench/api/node/extensionHostProcess.js:98:132308)
+	at l.N (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+	at l.M (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+	at l.H (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+	at l.G (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at t.E (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:18927)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:72:16915
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at d.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:12592)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:72:11879
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:28518)
+[Error  - 17:09:26.237] dd077eb5-be33-4233-ad1a-f0bed128db94 terminal: listening failed:
+Error: 13 INTERNAL: wait: no child processes
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:261120)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:288626)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:281657)
+	at /ide/extensions/gitpod-web/out/extension.js:2:365639
+	at processTicksAndRejections (node:internal/process/task_queues:78:11)
+for call at
+	at n.makeServerStreamRequest (/ide/extensions/gitpod-web/out/extension.js:2:288393)
+	at n.listen (/ide/extensions/gitpod-web/out/extension.js:2:351042)
+	at /ide/extensions/gitpod-web/out/extension.js:2:896760
+	at new Promise (<anonymous>)
+	at Object.open (/ide/extensions/gitpod-web/out/extension.js:2:896659)
+	at C.startSendingEvents (/ide/out/vs/workbench/api/node/extensionHostProcess.js:98:128835)
+	at R.$startExtensionTerminal (/ide/out/vs/workbench/api/node/extensionHostProcess.js:98:132308)
+	at l.N (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+	at l.M (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+	at l.H (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+	at l.G (/ide/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at p.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+	at t.E (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:18927)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:72:16915
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at d.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:12592)
+	at /ide/out/vs/workbench/api/node/extensionHostProcess.js:72:11879
+	at f.invoke (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at h.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at h.t (/ide/out/vs/workbench/api/node/extensionHostProcess.js:72:28518)

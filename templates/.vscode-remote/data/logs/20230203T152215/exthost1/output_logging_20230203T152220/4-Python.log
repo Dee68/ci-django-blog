@@ -1,0 +1,90 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+> ~/.pyenv/versions/3.8.11/bin/python -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 15:22:28.447]: [Error: Command failed: /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Socket.<anonymous> (node:internal/child_process:451:11)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> /bin/python3 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 15:22:28.476]: [Error: Command failed: /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> /usr/bin/python3 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 15:22:30.462]: [Error: Command failed: /bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+> /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-1-3 15:22:30.488]: [Error: Command failed: /usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:399:12)
+	at ChildProcess.emit (node:events:526:28)
+	at maybeClose (node:internal/child_process:1092:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  killed: false,
+  code: 2,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/interpreterInfo.py'
+}
+Python interpreter path: ~/.pyenv/versions/3.8.11/bin/python
+Starting Jedi language server for ci-django-blog.
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./django_blog/settings.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+23,80,E,E501:line too long (81 > 79 characters)
+89,80,E,E501:line too long (91 > 79 characters)
+92,80,E,E501:line too long (81 > 79 characters)
+95,80,E,E501:line too long (82 > 79 characters)
+98,80,E,E501:line too long (83 > 79 characters)
+
+> ~/.pyenv/versions/3.8.11/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2023.2.0-universal/pythonFiles/linter.py -m pycodestyle ./django_blog/settings.py
+cwd: .
+##########Linting Output - pycodestyle##########
+
+23,80,E,E501:line too long (81 > 79 characters)
+90,80,E,E501:line too long (91 > 79 characters)
+93,80,E,E501:line too long (81 > 79 characters)
+96,80,E,E501:line too long (82 > 79 characters)
+99,80,E,E501:line too long (83 > 79 characters)
+
